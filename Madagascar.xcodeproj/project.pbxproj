@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C0A0D517494B9800ACC08A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0D417494B9800ACC08A /* UIKit.framework */; };
+		07C0A0D717494B9800ACC08A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0D617494B9800ACC08A /* Foundation.framework */; };
+		07C0A0D917494B9800ACC08A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0D817494B9800ACC08A /* CoreGraphics.framework */; };
+		07C0A0DF17494B9800ACC08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A0DD17494B9800ACC08A /* InfoPlist.strings */; };
+		07C0A0E117494B9800ACC08A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A0E017494B9800ACC08A /* main.m */; };
+		07C0A0E517494B9800ACC08A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A0E417494B9800ACC08A /* AppDelegate.m */; };
+		07C0A0E817494B9800ACC08A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A0E717494B9800ACC08A /* ViewController.m */; };
+		07C0A0EB17494B9900ACC08A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A0E917494B9800ACC08A /* ViewController.xib */; };
+		07C0A0F317494B9C00ACC08A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0F217494B9C00ACC08A /* SenTestingKit.framework */; };
+		07C0A0F417494B9C00ACC08A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0D417494B9800ACC08A /* UIKit.framework */; };
+		07C0A0F517494B9C00ACC08A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0D617494B9800ACC08A /* Foundation.framework */; };
+		07C0A0FD17494B9C00ACC08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A0FB17494B9C00ACC08A /* InfoPlist.strings */; };
+		07C0A10017494B9C00ACC08A /* MadagascarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A0FF17494B9C00ACC08A /* MadagascarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C0A0F617494B9C00ACC08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C0A0C717494B9700ACC08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C0A0CF17494B9700ACC08A;
+			remoteInfo = Madagascar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C0A0D017494B9800ACC08A /* Madagascar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madagascar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C0A0D417494B9800ACC08A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07C0A0D617494B9800ACC08A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07C0A0D817494B9800ACC08A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07C0A0DC17494B9800ACC08A /* Madagascar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Madagascar-Info.plist"; sourceTree = "<group>"; };
+		07C0A0DE17494B9800ACC08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07C0A0E017494B9800ACC08A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C0A0E217494B9800ACC08A /* Madagascar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Madagascar-Prefix.pch"; sourceTree = "<group>"; };
+		07C0A0E317494B9800ACC08A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C0A0E417494B9800ACC08A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C0A0E617494B9800ACC08A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07C0A0E717494B9800ACC08A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07C0A0EA17494B9900ACC08A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		07C0A0F117494B9C00ACC08A /* MadagascarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadagascarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C0A0F217494B9C00ACC08A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		07C0A0FA17494B9C00ACC08A /* MadagascarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadagascarTests-Info.plist"; sourceTree = "<group>"; };
+		07C0A0FC17494B9C00ACC08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07C0A0FE17494B9C00ACC08A /* MadagascarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadagascarTests.h; sourceTree = "<group>"; };
+		07C0A0FF17494B9C00ACC08A /* MadagascarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadagascarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C0A0CD17494B9700ACC08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A0D517494B9800ACC08A /* UIKit.framework in Frameworks */,
+				07C0A0D717494B9800ACC08A /* Foundation.framework in Frameworks */,
+				07C0A0D917494B9800ACC08A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A0ED17494B9C00ACC08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A0F317494B9C00ACC08A /* SenTestingKit.framework in Frameworks */,
+				07C0A0F417494B9C00ACC08A /* UIKit.framework in Frameworks */,
+				07C0A0F517494B9C00ACC08A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C0A0C517494B9700ACC08A = {
+			isa = PBXGroup;
+			children = (
+				07C0A0DA17494B9800ACC08A /* Madagascar */,
+				07C0A0F817494B9C00ACC08A /* MadagascarTests */,
+				07C0A0D317494B9800ACC08A /* Frameworks */,
+				07C0A0D117494B9800ACC08A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C0A0D117494B9800ACC08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A0D017494B9800ACC08A /* Madagascar.app */,
+				07C0A0F117494B9C00ACC08A /* MadagascarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C0A0D317494B9800ACC08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A0D417494B9800ACC08A /* UIKit.framework */,
+				07C0A0D617494B9800ACC08A /* Foundation.framework */,
+				07C0A0D817494B9800ACC08A /* CoreGraphics.framework */,
+				07C0A0F217494B9C00ACC08A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07C0A0DA17494B9800ACC08A /* Madagascar */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A0E317494B9800ACC08A /* AppDelegate.h */,
+				07C0A0E417494B9800ACC08A /* AppDelegate.m */,
+				07C0A0E617494B9800ACC08A /* ViewController.h */,
+				07C0A0E717494B9800ACC08A /* ViewController.m */,
+				07C0A0E917494B9800ACC08A /* ViewController.xib */,
+				07C0A0DB17494B9800ACC08A /* Supporting Files */,
+			);
+			path = Madagascar;
+			sourceTree = "<group>";
+		};
+		07C0A0DB17494B9800ACC08A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A0DC17494B9800ACC08A /* Madagascar-Info.plist */,
+				07C0A0DD17494B9800ACC08A /* InfoPlist.strings */,
+				07C0A0E017494B9800ACC08A /* main.m */,
+				07C0A0E217494B9800ACC08A /* Madagascar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07C0A0F817494B9C00ACC08A /* MadagascarTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A0FE17494B9C00ACC08A /* MadagascarTests.h */,
+				07C0A0FF17494B9C00ACC08A /* MadagascarTests.m */,
+				07C0A0F917494B9C00ACC08A /* Supporting Files */,
+			);
+			path = MadagascarTests;
+			sourceTree = "<group>";
+		};
+		07C0A0F917494B9C00ACC08A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C0A0FA17494B9C00ACC08A /* MadagascarTests-Info.plist */,
+				07C0A0FB17494B9C00ACC08A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C0A0CF17494B9700ACC08A /* Madagascar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0A10317494B9D00ACC08A /* Build configuration list for PBXNativeTarget "Madagascar" */;
+			buildPhases = (
+				07C0A0CC17494B9700ACC08A /* Sources */,
+				07C0A0CD17494B9700ACC08A /* Frameworks */,
+				07C0A0CE17494B9700ACC08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Madagascar;
+			productName = Madagascar;
+			productReference = 07C0A0D017494B9800ACC08A /* Madagascar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C0A0F017494B9C00ACC08A /* MadagascarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0A10617494B9D00ACC08A /* Build configuration list for PBXNativeTarget "MadagascarTests" */;
+			buildPhases = (
+				07C0A0EC17494B9C00ACC08A /* Sources */,
+				07C0A0ED17494B9C00ACC08A /* Frameworks */,
+				07C0A0EE17494B9C00ACC08A /* Resources */,
+				07C0A0EF17494B9C00ACC08A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C0A0F717494B9C00ACC08A /* PBXTargetDependency */,
+			);
+			name = MadagascarTests;
+			productName = MadagascarTests;
+			productReference = 07C0A0F117494B9C00ACC08A /* MadagascarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C0A0C717494B9700ACC08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = appdev;
+			};
+			buildConfigurationList = 07C0A0CA17494B9700ACC08A /* Build configuration list for PBXProject "Madagascar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07C0A0C517494B9700ACC08A;
+			productRefGroup = 07C0A0D117494B9800ACC08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C0A0CF17494B9700ACC08A /* Madagascar */,
+				07C0A0F017494B9C00ACC08A /* MadagascarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C0A0CE17494B9700ACC08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A0DF17494B9800ACC08A /* InfoPlist.strings in Resources */,
+				07C0A0EB17494B9900ACC08A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A0EE17494B9C00ACC08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A0FD17494B9C00ACC08A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C0A0EF17494B9C00ACC08A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C0A0CC17494B9700ACC08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A0E117494B9800ACC08A /* main.m in Sources */,
+				07C0A0E517494B9800ACC08A /* AppDelegate.m in Sources */,
+				07C0A0E817494B9800ACC08A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0A0EC17494B9C00ACC08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0A10017494B9C00ACC08A /* MadagascarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C0A0F717494B9C00ACC08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C0A0CF17494B9700ACC08A /* Madagascar */;
+			targetProxy = 07C0A0F617494B9C00ACC08A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C0A0DD17494B9800ACC08A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C0A0DE17494B9800ACC08A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07C0A0E917494B9800ACC08A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C0A0EA17494B9900ACC08A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		07C0A0FB17494B9C00ACC08A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C0A0FC17494B9C00ACC08A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C0A10117494B9D00ACC08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C0A10217494B9D00ACC08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C0A10417494B9D00ACC08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madagascar/Madagascar-Prefix.pch";
+				INFOPLIST_FILE = "Madagascar/Madagascar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07C0A10517494B9D00ACC08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madagascar/Madagascar-Prefix.pch";
+				INFOPLIST_FILE = "Madagascar/Madagascar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07C0A10717494B9D00ACC08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Madagascar.app/Madagascar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madagascar/Madagascar-Prefix.pch";
+				INFOPLIST_FILE = "MadagascarTests/MadagascarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07C0A10817494B9D00ACC08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Madagascar.app/Madagascar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madagascar/Madagascar-Prefix.pch";
+				INFOPLIST_FILE = "MadagascarTests/MadagascarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C0A0CA17494B9700ACC08A /* Build configuration list for PBXProject "Madagascar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A10117494B9D00ACC08A /* Debug */,
+				07C0A10217494B9D00ACC08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C0A10317494B9D00ACC08A /* Build configuration list for PBXNativeTarget "Madagascar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A10417494B9D00ACC08A /* Debug */,
+				07C0A10517494B9D00ACC08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07C0A10617494B9D00ACC08A /* Build configuration list for PBXNativeTarget "MadagascarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0A10717494B9D00ACC08A /* Debug */,
+				07C0A10817494B9D00ACC08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C0A0C717494B9700ACC08A /* Project object */;
+}
