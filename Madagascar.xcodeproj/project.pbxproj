@@ -20,6 +20,8 @@
 		07C0A0F517494B9C00ACC08A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A0D617494B9800ACC08A /* Foundation.framework */; };
 		07C0A0FD17494B9C00ACC08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C0A0FB17494B9C00ACC08A /* InfoPlist.strings */; };
 		07C0A10017494B9C00ACC08A /* MadagascarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A0FF17494B9C00ACC08A /* MadagascarTests.m */; };
+		07C0A10B17494DC500ACC08A /* GyroManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0A10A17494DC500ACC08A /* GyroManager.m */; };
+		07C0A10D17494E3A00ACC08A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0A10C17494E3A00ACC08A /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		07C0A0FC17494B9C00ACC08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C0A0FE17494B9C00ACC08A /* MadagascarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadagascarTests.h; sourceTree = "<group>"; };
 		07C0A0FF17494B9C00ACC08A /* MadagascarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadagascarTests.m; sourceTree = "<group>"; };
+		07C0A10917494DC500ACC08A /* GyroManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroManager.h; sourceTree = "<group>"; };
+		07C0A10A17494DC500ACC08A /* GyroManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroManager.m; sourceTree = "<group>"; };
+		07C0A10C17494E3A00ACC08A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C0A10D17494E3A00ACC08A /* CoreMotion.framework in Frameworks */,
 				07C0A0D517494B9800ACC08A /* UIKit.framework in Frameworks */,
 				07C0A0D717494B9800ACC08A /* Foundation.framework in Frameworks */,
 				07C0A0D917494B9800ACC08A /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,7 @@
 		07C0A0C517494B9700ACC08A = {
 			isa = PBXGroup;
 			children = (
+				07C0A10C17494E3A00ACC08A /* CoreMotion.framework */,
 				07C0A0DA17494B9800ACC08A /* Madagascar */,
 				07C0A0F817494B9C00ACC08A /* MadagascarTests */,
 				07C0A0D317494B9800ACC08A /* Frameworks */,
@@ -117,6 +124,8 @@
 				07C0A0E717494B9800ACC08A /* ViewController.m */,
 				07C0A0E917494B9800ACC08A /* ViewController.xib */,
 				07C0A0DB17494B9800ACC08A /* Supporting Files */,
+				07C0A10917494DC500ACC08A /* GyroManager.h */,
+				07C0A10A17494DC500ACC08A /* GyroManager.m */,
 			);
 			path = Madagascar;
 			sourceTree = "<group>";
@@ -261,6 +270,7 @@
 				07C0A0E117494B9800ACC08A /* main.m in Sources */,
 				07C0A0E517494B9800ACC08A /* AppDelegate.m in Sources */,
 				07C0A0E817494B9800ACC08A /* ViewController.m in Sources */,
+				07C0A10B17494DC500ACC08A /* GyroManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
