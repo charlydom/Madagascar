@@ -45,7 +45,6 @@
 		07C0A0E217494B9800ACC08A /* Madagascar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Madagascar-Prefix.pch"; sourceTree = "<group>"; };
 		07C0A0E317494B9800ACC08A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07C0A0E417494B9800ACC08A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07C0A0E617494B9800ACC08A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		07C0A0E717494B9800ACC08A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07C0A0EA17494B9900ACC08A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		07C0A0F117494B9C00ACC08A /* MadagascarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadagascarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +119,6 @@
 			children = (
 				07C0A0E317494B9800ACC08A /* AppDelegate.h */,
 				07C0A0E417494B9800ACC08A /* AppDelegate.m */,
-				07C0A0E617494B9800ACC08A /* ViewController.h */,
 				07C0A0E717494B9800ACC08A /* ViewController.m */,
 				07C0A0E917494B9800ACC08A /* ViewController.xib */,
 				07C0A0DB17494B9800ACC08A /* Supporting Files */,
@@ -444,6 +442,7 @@
 				07C0A10517494B9D00ACC08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C0A10617494B9D00ACC08A /* Build configuration list for PBXNativeTarget "MadagascarTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +451,7 @@
 				07C0A10817494B9D00ACC08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
